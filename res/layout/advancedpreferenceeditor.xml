@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-1">
+		<CheckBox android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Enabled" />
+		<CheckBox android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Remember Unsupported Commands" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Enter the commands below that the vehicle does not support. Enter one command per line. Commands entered below will not be sent to the vehicle." />
+		<EditText android:gravity="48" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="6" android:lines="6" android:inputType="131073" />
+	</LinearLayout>
+</ScrollView>

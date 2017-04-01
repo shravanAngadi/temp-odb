@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-mdpi-v4/ic_action_new.png" android:id="false" android:title="Add Display" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_add_to_queue.png" android:id="false" android:title="Add Dashboard" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_discard.png" android:id="false" android:title="Remove Dashboard" />
+	<item android:icon="res/drawable-mdpi-v4/ic_menu_archive.png" android:id="false" android:title="Load Default Dashboards" />
+	<item android:id="false" android:title="Toggle HUD Mode" />
+	<item android:id="false" android:title="Calibrate Device Sensors" />
+</menu>

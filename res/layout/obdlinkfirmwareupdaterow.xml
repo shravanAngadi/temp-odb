@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="12dp" android:layout_width="-1" android:layout_height="{2:16842829}">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="18sp" android:ellipsize="4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		<Button android:textSize="12dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/buttonblack.xml" android:paddingLeft="10dp" android:paddingTop="8dp" android:paddingRight="10dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:minHeight="20dp" android:text="MORE" android:layout_weight="{4:0}" />
+	</LinearLayout>
+	<TextView android:textSize="15sp" android:ellipsize="4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+	<TextView android:textSize="15sp" android:ellipsize="4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+	<TextView android:textSize="15sp" android:ellipsize="4" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" />
+	<Button android:textColor="ffffffff" android:id="false" android:background="res/drawable/buttonblue.xml" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="6dp" android:layout_width="-1" android:layout_height="{2:16842829}">
+	<TextView android:ellipsize="4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+</LinearLayout>

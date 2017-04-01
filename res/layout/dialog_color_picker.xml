@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2">
+	<md5d9c7dcdbb54f423705a76e65ea476b4a.ColorPickerView android:id="false" android:tag="portrait" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+	<TextView android:textAppearance="{2:16842818}" android:gravity="3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:layout_marginBottom="5dp" android:text="Select color to apply" />
+	<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="40dp" android:layout_marginBottom="10dp" android:layout_below="false">
+		<md5d9c7dcdbb54f423705a76e65ea476b4a.ColorPickerPanelView android:id="false" android:layout_width="0px" android:layout_height="-1" android:layout_weight="{4:1056964608}" />
+		<TextView android:textSize="20sp" android:gravity="17" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="→" />
+		<md5d9c7dcdbb54f423705a76e65ea476b4a.ColorPickerPanelView android:id="false" android:layout_width="0px" android:layout_height="-2" android:layout_weight="{4:1056964608}" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Information" style="@style/ListViewHeaderText" />
+		<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Name" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="524289" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Description" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="524289" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Category" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Manufacturer" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Units" style="@style/ListViewHeaderText" />
+		<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Metric Units" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="English Units" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Min Value" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Max Value" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Metric to English Scale Factor" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Metric to English Offset" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="OBD Information" style="@style/ListViewHeaderText" />
+		<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Module/Header" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="524289" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="OBD Mode" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="PID Number" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="12dp" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="12dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="" />
+		<TextView android:textSize="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Priority" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:prompt="Priority" />
+		<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Equation" style="@style/ListViewHeaderText" />
+		<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:singleLine="true" android:inputType="524289" />
+		<Button android:layout_gravity="81" android:id="false" android:background="res/drawable/buttonblue.xml" android:layout_width="-1" android:layout_height="-2" android:text="Test" android:layout_weight="{4:0}" style="@style/ButtonText" />
+	</LinearLayout>
+</ScrollView>

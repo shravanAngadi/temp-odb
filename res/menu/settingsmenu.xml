@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-mdpi-v4/ic_action_view_as_list.png" android:id="false" android:title="Export Settings" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_discard.png" android:id="false" android:title="Import Settings" />
+</menu>

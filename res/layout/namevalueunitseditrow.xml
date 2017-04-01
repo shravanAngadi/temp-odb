@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="16dp" android:textColor="ffffffff" android:id="false" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<EditText android:id="false" android:paddingBottom="4dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+	<TextView android:id="false" android:paddingLeft="4dp" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

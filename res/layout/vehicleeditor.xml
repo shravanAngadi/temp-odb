@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Name" />
+		<LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0px" android:layout_height="0px" />
+		<EditText android:id="false" android:nextFocusLeft="false" android:nextFocusUp="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Vehicle Identification Number" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Year" android:layout_weight="{4:1065353216}" />
+			<Button android:layout_gravity="85" android:id="false" android:background="0000" android:paddingLeft="6dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8dp" android:text="Select" />
+		</LinearLayout>
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Make" android:layout_weight="{4:1065353216}" />
+			<Button android:layout_gravity="85" android:id="false" android:background="0000" android:paddingLeft="6dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8dp" android:text="Select" />
+		</LinearLayout>
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Model" android:layout_weight="{4:1065353216}" />
+			<Button android:layout_gravity="85" android:id="false" android:background="0000" android:paddingLeft="6dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8dp" android:text="Select" />
+		</LinearLayout>
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Option" android:layout_weight="{4:1065353216}" />
+			<Button android:layout_gravity="85" android:id="false" android:background="0000" android:paddingLeft="6dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8dp" android:text="Select" />
+		</LinearLayout>
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Enhanced Network" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:spinnerMode="0" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Type" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:prompt="Type" android:spinnerMode="0" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Fuel" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:prompt="Fuel" android:spinnerMode="0" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Engine Size (Liters)" />
+		<md5bb7ee07fc57ad387ac577b3c0b2d7da2.EditTextWithHelp android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Volumetric Efficiency (%)" />
+		<md5bb7ee07fc57ad387ac577b3c0b2d7da2.EditTextWithHelp android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Brake Specific Fuel Consumption (lb/hp•hr)" />
+		<md5bb7ee07fc57ad387ac577b3c0b2d7da2.EditTextWithHelp android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Fuel Calculation Method" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:prompt="Fuel Calculation Method" android:spinnerMode="0" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="17dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Fuel Cost Per Unit" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<Button android:layout_gravity="81" android:id="false" android:background="res/drawable/buttonblue.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Rescan Supported PIDs" style="@style/ButtonText" />
+	</LinearLayout>
+</ScrollView>

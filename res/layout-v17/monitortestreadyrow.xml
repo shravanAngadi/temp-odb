@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:padding="6dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<ImageView android:layout_gravity="16" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" />
+		<LinearLayout android:layout_gravity="16" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:textColor="ffffffff" android:layout_width="-2" android:layout_height="-2" android:text="Readiness Standard" />
+			<TextView android:textSize="16sp" android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" />
+		<TextView android:textSize="16sp" android:textColor="ffffffff" android:gravity="16" android:layout_gravity="16" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" />
+		<TextView android:textSize="16sp" android:textColor="ffffffff" android:gravity="16" android:layout_gravity="16" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" />
+		<TextView android:textSize="16sp" android:textColor="ffffffff" android:gravity="16" android:layout_gravity="16" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+</LinearLayout>

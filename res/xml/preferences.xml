@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen android:title="Communications" android:key="communications_preferencescreen">
+		<PreferenceCategory android:title="Connection Settings">
+			<octech.mobile.applications.settings.ConnectionTypePreferenceWithHelp android:title="Communication Type" android:key="Communications_CommunicationType" android:summary="Bluetooth, Wi-Fi, or USB" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" android:key="Communications_CommunicationsTypeDivider" />
+		<PreferenceCategory android:title="Bluetooth Settings" android:key="Communications_BluetoothSettingsCategory">
+			<ListPreference android:title="Bluetooth Device" android:key="Communications_BluetoothDeviceAddress" android:summary="Select the Bluetooth device that is paired with this device." />
+			<CheckBoxPreference android:title="Auto Detect" android:key="Communications_BluetoothAutoDeviceDetection" android:summary="Useful if you have multiple paired adapters. Can increase connection time and reduce connection reliability." android:defaultValue="false" />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="Automatic Adapter Settings" android:key="Communications_AutomaticAdapterSettingsCategory">
+			<ListPreference android:title="Automatic Adapter Device" android:key="Communications_AutomaticAdapterAddressKey" android:summary="Select the Automatic Adapter that is paired with this device." />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="Wi-Fi Settings" android:key="Communications_WifiSettingsCategory">
+			<ListPreference android:title="Device" android:key="Communications_WifiDevice" android:summary="Select the Wi-Fi adapter." />
+			<EditTextPreference android:title="IP Address" android:key="Communications_WifiIpAddress" android:summary="Set the IP Address of the Wi-Fi Adapter." />
+			<EditTextPreference android:title="Port" android:key="Communications_WifiPort" android:summary="Set the port of the Wi-Fi Adapter." />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="USB Settings" android:key="Communications_UsbSettingsCategory">
+			<ListPreference android:title="USB Device" android:key="Communications_UsbDeviceDescriptionSerial" android:summary="Select the USB device that is connected to this device." />
+			<ListPreference android:title="Baud Rate" android:key="Communications_UsbBaudRate" android:summary="Select the baud rate of your scan tool." />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="OBD-II Protocol" android:key="Communications_OBD2ProtocolCategory">
+			<ListPreference android:title="OBD-II Protocol" android:key="Communications_OBD2Protocol" android:summary="Select the OBD-II Protocol" />
+			<CheckBoxPreference android:title="Start with Last Connected Protocol" android:key="Communications_StartWithLastConnectedOBD2Protocol" android:summary="Speed up automatic connections by trying the last connected protocol first. Can reduce connection reliability with other vehicles." android:defaultValue="true" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="General" android:key="Communications_GeneralCategory">
+			<ListPreference android:title="Connection" android:key="Communications_ConnectionMode" android:summary="Sets whether a connection will be automatically initiated when a compatible scan tool is found when foregrounding the app." />
+			<CheckBoxPreference android:title="Connect Silently" android:key="Communications_ConnectSilently" android:summary="Set whether the software silently connects to the scan tool." android:defaultValue="false" />
+			<CheckBoxPreference android:title="Prompt for ECU" android:key="Communications_PromptForECU" android:summary="Set whether the software prompts to select the ECU when connecting." android:defaultValue="false" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" android:key="Communications_CommunicationsTypeDivider" />
+		<PreferenceCategory android:title="PID Monitor" android:key="Communications_PidMonitorCategory">
+			<CheckBoxPreference android:title="Fast Polling" android:key="Communications_FastPolling" android:summary="Set whether fast communication is attempted. Not compatible with all adapters." android:defaultValue="false" />
+			<ListPreference android:title="Dwell Time" android:key="Communications_PIDMonitorDwellTimeMsec" android:summary="Set the dwell time between each PID read from the vehicle. Lower dwell times result in faster refresh rates." />
+			<CheckBoxPreference android:title="Keepalive Enabled" android:key="Communications_KeepAliveEnabled" android:summary="Set whether the keep alive thread is enabled. The keep alive thread periodically verifies the connection to the vehicle." android:defaultValue="false" />
+			<CheckBoxPreference android:title="Try Unsupported PIDs" android:key="Communications_AttemptReadingUnsupportedPids" android:summary="Set to attempt reading PIDs that the vehicle reports as unsupported." android:defaultValue="false" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	<PreferenceScreen android:title="Vehicle Editor" android:key="vehicleeditor_preferencescreen" />
+	<PreferenceScreen android:title="Units" android:key="units_preferencescreen" />
+	<PreferenceScreen android:title="General" android:key="general_preferencescreen">
+		<CheckBoxPreference android:title="Keep Screen On" android:key="General_KeepScreenOn" android:summary="Set whether the screen always remains on for all pages and not just the dashboard and maps page." android:defaultValue="false" />
+		<CheckBoxPreference android:title="Show Tips" android:key="General_ShowTipsEnabled" android:summary="Set whether tips that explain how to use this application are displayed." android:defaultValue="true" />
+		<CheckBoxPreference android:title="Debugging Enabled" android:key="General_DebugEnabled" android:summary="Set whether debugging is enabled. Requires a restart of the application. Use the main menu on start screen to send debug information." android:defaultValue="false" />
+		<CheckBoxPreference android:title="Start On Dashboard Page" android:key="General_StartOnDashboardPage" android:summary="Set whether the app will open the dashboard page on startup." android:defaultValue="false" />
+		<CheckBoxPreference android:title="Send Anonymous Usage Statistics" android:key="General_SendAnonymousUsage" android:summary="Set to send anonymous usage data (Recommended). No personal data is reported." android:defaultValue="true" />
+		<ListPreference android:title="Language" android:key="General_Language" android:summary="Select the language. Requires restart." />
+		<EditTextPreference android:title="Currency Symbol" android:key="Units_CurrencySymbol" android:summary="The symbol of your currency. $ for example." />
+		<CheckBoxPreference android:title="Always Show Soft Menu" android:key="General_AlwaysShowSoftMenu" android:summary="Set whether the soft menu option is always shown on pages with a menu option regardless of the physical buttons available on a device." android:defaultValue="false" />
+		<CheckBoxPreference android:title="Do Not Show Communication Errors" android:key="General_DoNotShowCommunicationErrorsDialog" android:summary="Set whether the app shows a dialog when a communication error occurs." android:defaultValue="false" />
+	</PreferenceScreen>
+	<PreferenceScreen android:title="Log Setup" android:key="loggingSetup_preferencescreen">
+		<PreferenceCategory android:title="Configure Logging Options">
+			<CheckBoxPreference android:title="Logging Enabled" android:key="Logging_Enabled" android:summary="Set whether GPS and OBD2 logging is enabled. Logging must be enabled to display data on the Maps page. Requires restart." android:defaultValue="true" />
+			<ListPreference android:title="Logging Trigger" android:key="Logging_Trigger" android:summary="Select the trigger source used to determine when a frame is saved to the log file." />
+			<octech.mobile.applications.settings.IntegerListPreference android:title="Sample Time" android:key="Logging_SampleTime" android:summary="Select the sample time to log data when triggering based on a sample time." />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="Select Items to Log">
+			<PreferenceScreen android:title="Select Items to Log" android:key="Logging_LoggableItemsScreen" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="CSV File Options">
+			<ListPreference android:title="Time Format" android:key="Logging_CsvFileOptions_TimeFormat" android:summary="Select the format used to write time stamp data to the CSV file." />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	<PreferenceScreen android:title="User-Defined PIDs" android:key="userpids_preferencescreen" />
+	<PreferenceScreen android:title="Purchase Extras" android:key="PurchaseExtras_PreferenceScreen" />
+	<PreferenceScreen android:title="Advanced" android:key="advanced_preferencescreen">
+		<PreferenceCategory android:title="General">
+			<CheckBoxPreference android:title="Disable Mode 09" android:key="Advanced_DisableMode09" android:summary="Mode 09, which includes reading the VIN, causes problems with some older vehicles." android:defaultValue="false" />
+			<Preference android:title="Unsupported Commands" android:key="Advanced_UnsupportedCommands" android:summary="Commands that cause a loss of connection." />
+			<Preference android:title="Interface Initialization" android:key="Advanced_InterfaceInitialization" android:summary="Commands sent to the interface (scan tool) when connecting." />
+			<CheckBoxPreference android:title="Freeze Headers" android:key="Advanced_FreezeHeadersEnabled" android:summary="Set whether the headers are frozen and never changed." android:defaultValue="false" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="Bluetooth Settings">
+			<CheckBoxPreference android:title="Do Not Clear Input Buffer" android:key="Communications_BluetoothDoNotClearInputBuffer" android:summary="Enable this setting if the app hangs when trying to connect to your scan tool." android:defaultValue="false" />
+		</PreferenceCategory>
+		<Preference android:layout="res/layout/preferencesdivider.xml" android:selectable="false" />
+		<PreferenceCategory android:title="J1850 Safe Mode">
+			<CheckBoxPreference android:title="Disable J1850 Safe Mode" android:key="Advanced_DisableJ1850SafeMode" android:summary="Set to disable safe condition checks when connected to a vehicle that uses the J1850 protocol. Do not enable this setting unless instructed by customer service." android:defaultValue="false" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	<PreferenceScreen android:title="Information" android:key="info_preferencescreen" />
+	<PreferenceScreen android:title="Dropbox" android:key="dropBox_preferencescreen" />
+	<PreferenceScreen android:title="Connection Help" android:key="connectionhelp_preferencescreen" />
+	<PreferenceScreen android:title="Firmware Updates" android:key="firmwareupdates_preferencescreen" />
+	<PreferenceScreen android:title="License Manager" android:key="licensemanager_preferencescreen" />
+	<PreferenceScreen android:title="Rate this Application" android:key="rateapplication_preferencescreen" />
+	<PreferenceScreen android:title="License Agreement" android:key="licensingagreement_preferencescreen" />
+	<PreferenceScreen android:title="Acknowledgements" android:key="acknowledgements_preferencescreen" />
+	<PreferenceScreen android:title="Privacy Policy" android:key="privacypolicy_preferencescreen" />
+</PreferenceScreen>

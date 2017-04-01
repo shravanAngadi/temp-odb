@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="16dp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_alignParentLeft="true" style="@style/ListViewHeaderText" />
+		<Button android:id="false" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:text="Delete" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+	<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.ColorPickerRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

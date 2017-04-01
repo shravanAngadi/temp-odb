@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-1">
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="12dp" android:layout_weight="{4:1065353216}" android:layout_alignParentTop="true" />
+	<LinearLayout android:layout_gravity="80" android:orientation="1" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:0}">
+		<CheckBox android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+		<Button android:layout_gravity="81" android:id="false" android:background="res/drawable/buttongreen.xml" android:layout_width="-1" android:layout_height="-2" android:text="Check For Updates" style="@style/ButtonText" />
+	</LinearLayout>
+</LinearLayout>

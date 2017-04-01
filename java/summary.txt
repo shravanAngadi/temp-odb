@@ -1,0 +1,117 @@
+Summary for /storage/emulated/0/ShowJava/sources/OCTech.Mobile.Applications.OBDLink/OCTech.Mobile.Applications.OBDLink.jar
+Decompiled with CFR 0_110
+
+
+com.ftdi.j2xx.D2xxManager
+----------------------------
+
+createDeviceInfoList(android.content.Context )
+  Unable to fully structure code
+openByDescription(android.content.Context java.lang.String com.ftdi.j2xx.D2xxManager$DriverParameters )
+  Unable to fully structure code
+openByLocation(android.content.Context int com.ftdi.j2xx.D2xxManager$DriverParameters )
+  Unable to fully structure code
+openBySerialNumber(android.content.Context java.lang.String com.ftdi.j2xx.D2xxManager$DriverParameters )
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_BaudRate
+----------------------------
+
+FT_CalcBaudRate(int int boolean )
+  Unable to fully structure code
+FT_CalcBaudRateHi(int int )
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_Device
+----------------------------
+
+<init>(android.content.Context android.hardware.usb.UsbManager android.hardware.usb.UsbDevice android.hardware.usb.UsbInterface )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.ftdi.j2xx.FT_EE_2232H_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[SWITCH]
+readEeprom()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [10[CASE]], but top level block is 7[TRYBLOCK]
+
+
+com.ftdi.j2xx.FT_EE_2232_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Exception : java.util.ConcurrentModificationException
+readEeprom()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.ftdi.j2xx.FT_EE_232A_Ctrl
+----------------------------
+
+readEeprom()
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_EE_232B_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Unable to fully structure code
+readEeprom()
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_EE_232H_Ctrl
+----------------------------
+
+readEeprom()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CASE]], but top level block is 1[TRYBLOCK]
+
+
+com.ftdi.j2xx.FT_EE_232R_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[UNCONDITIONALDOLOOP]], but top level block is 11[TRYBLOCK]
+readEeprom()
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_EE_245R_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[UNCONDITIONALDOLOOP]], but top level block is 11[TRYBLOCK]
+readEeprom()
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.FT_EE_4232H_Ctrl
+----------------------------
+
+programEeprom(com.ftdi.j2xx.FT_EEPROM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[SWITCH]
+readEeprom()
+  Exception : java.util.ConcurrentModificationException
+
+
+com.ftdi.j2xx.FT_EE_X_Ctrl
+----------------------------
+
+readEeprom()
+  Unable to fully structure code
+
+
+com.ftdi.j2xx.ProcessInCtrl
+----------------------------
+
+extractReadData(com.ftdi.j2xx.InBuffer )
+  Unable to fully structure code
+close()
+  Loose catch block
+purgeINData()
+  Exception : java.util.ConcurrentModificationException

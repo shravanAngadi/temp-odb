@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-mdpi-v4/ic_action_refresh.png" android:id="false" android:title="Refresh" android:showAsAction="1" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_save.png" android:id="false" android:title="Store" android:showAsAction="1" />
+	<item android:icon="res/drawable-mdpi-v4/ic_menu_archive.png" android:id="false" android:title="Load" android:showAsAction="1" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_share.png" android:id="false" android:title="Share" android:showAsAction="1" />
+</menu>

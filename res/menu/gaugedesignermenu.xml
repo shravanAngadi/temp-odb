@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Load Template" android:showAsAction="0" />
+	<item android:id="false" android:title="Save Template" android:showAsAction="0" />
+	<item android:id="false" android:title="Cancel" android:showAsAction="2" />
+</menu>

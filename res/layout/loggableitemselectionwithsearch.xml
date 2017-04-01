@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:padding="8dp" android:layout_width="-1" android:layout_height="-2">
+		<EditText android:textSize="14sp" android:id="false" android:background="res/drawable/roundededittext.xml" android:paddingLeft="8dp" android:paddingTop="5dp" android:paddingRight="8dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:hint="Type Search Here" android:singleLine="true" android:layout_weight="{4:1065353216}" android:imeOptions="6" />
+		<Button android:id="false" android:background="0000" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Cancel" />
+	</LinearLayout>
+	<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="16dp" android:gravity="17" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Color" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+	<EditText android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="7dp" android:singleLine="true" android:layout_toLeftOf="false" android:inputType="524289" android:textAlignment="3" />
+	<md5d9c7dcdbb54f423705a76e65ea476b4a.ColorPickerPanelView android:gravity="17" android:id="false" android:layout_width="64dp" android:layout_height="32dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

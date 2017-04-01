@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="240dp">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+			<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" />
+			<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" android:spinnerMode="1" />
+		</RelativeLayout>
+	</LinearLayout>
+	<ScrollView android:id="false" android:paddingTop="4dp" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_below="false" />
+</RelativeLayout>

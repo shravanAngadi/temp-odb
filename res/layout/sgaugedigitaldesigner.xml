@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="120dp" />
+	<ScrollView android:paddingTop="4dp" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_below="false">
+		<md582b5a07626dd05129629b576a190027d.SGaugeDesignerFrameView android:id="false" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" />
+	</ScrollView>
+</RelativeLayout>

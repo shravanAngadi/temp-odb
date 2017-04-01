@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="17" android:id="false" android:background="ff454545" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="49" android:id="false" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+		<RelativeLayout android:background="res/drawable/mainconnectstatusshape.xml" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="15dp" android:layout_centerInParent="true">
+				<ImageView android:layout_gravity="17" android:id="false" android:paddingTop="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+				<TextView android:textSize="20dp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Not Connected" android:layout_centerInParent="true" style="@style/ConnectionLabelText" />
+			</RelativeLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<View android:background="393939" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:layout_below="false" />
+	<RelativeLayout android:gravity="80" android:orientation="0" android:id="false" android:background="res/drawable/mainconnectstatusshape.xml" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<Button android:textSize="20dp" android:id="false" android:background="0000" android:paddingLeft="10dp" android:paddingTop="8dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:drawableLeft="res/drawable-mdpi-v4/ic_action_overflow.png" android:drawablePadding="6dp" android:layout_alignParentLeft="true" />
+		<Button android:textSize="20dp" android:textColor="ffffffff" android:id="false" android:background="0000" android:paddingTop="8dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Connect" android:drawableLeft="res/drawable-ldpi-v4/connect.png" android:drawablePadding="6dp" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<md5bb7ee07fc57ad387ac577b3c0b2d7da2.LauncherLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Settings" />
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:gravity="17" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Diagnostics" />
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Dashboard" />
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Maps" />
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Monitors" />
+		<Button android:textSize="15sp" android:textColor="ffffffff" android:gravity="17" android:layout_gravity="17" android:id="false" android:background="0000" android:padding="2dp" android:layout_width="-1" android:layout_height="-2" android:text="Logs" />
+	</md5bb7ee07fc57ad387ac577b3c0b2d7da2.LauncherLayout>
+	<View android:background="393939" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:layout_above="false" />
+</RelativeLayout>

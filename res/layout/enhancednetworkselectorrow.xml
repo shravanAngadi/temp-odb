@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1065353216}">
+	<LinearLayout android:orientation="1" android:padding="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+		<TextView android:textSize="17dp" android:textStyle="1" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:text="Generic OBD2" />
+		<TextView android:textSize="14dp" android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_marginBottom="8dp" android:text="Generic OBD2 Network" android:singleLine="false" />
+	</LinearLayout>
+	<ImageView android:layout_gravity="16" android:id="false" android:layout_width="18dp" android:layout_height="-1" android:layout_marginRight="16dp" android:src="res/drawable-ldpi-v4/bluechecked.png" android:scaleType="3" android:layout_weight="{4:0}" android:layout_alignParentRight="true" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Title (Can be blank)" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Item" />
+		<LinearLayout android:orientation="0" android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16dp" android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<ImageView android:layout_gravity="16" android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="7dp" android:layout_marginTop="2dp" android:src="res/drawable-ldpi-v4/downtrianglewhite.png" android:scaleType="3" android:layout_marginStart="7dp" />
+		</LinearLayout>
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Min" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Max" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Number of Decimals" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Multiplier" />
+		<Spinner android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+</ScrollView>

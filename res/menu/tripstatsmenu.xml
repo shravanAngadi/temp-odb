@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-ldpi-v4/day.png" android:id="false" android:title="Day" android:showAsAction="1" />
+	<item android:icon="res/drawable-ldpi-v4/week.png" android:id="false" android:title="Week" android:showAsAction="1" />
+	<item android:icon="res/drawable-ldpi-v4/month.png" android:id="false" android:title="Month" android:showAsAction="1" />
+	<item android:icon="res/drawable-ldpi-v4/year.png" android:id="false" android:title="Year" android:showAsAction="1" />
+</menu>

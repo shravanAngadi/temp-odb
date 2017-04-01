@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="16dp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="15dp" android:layout_weight="{4:1065353216}" android:layout_alignParentTop="true" />
+			<TextView android:textSize="16dp" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="2dp" android:layout_weight="{4:1065353216}" android:layout_alignParentTop="true" />
+			<TextView android:textSize="16dp" android:gravity="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2dp" android:layout_marginBottom="15dp" android:layout_weight="{4:1065353216}" android:layout_alignParentTop="true" />
+			<TextView android:textSize="16dp" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="30dp" android:layout_weight="{4:1065353216}" android:layout_alignParentTop="true" />
+			<Button android:layout_gravity="81" android:id="false" android:background="res/drawable/buttongreen.xml" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:text="Update Firmware" android:layout_weight="{4:0}" style="@style/ButtonText" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

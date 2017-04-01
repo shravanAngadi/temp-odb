@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-mdpi-v4/ic_action_play.png" android:id="false" android:title="Start" android:showAsAction="1" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_stop.png" android:id="false" android:title="Stop" android:showAsAction="1" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_settings.png" android:id="false" android:title="Configuration" android:showAsAction="1" />
+</menu>

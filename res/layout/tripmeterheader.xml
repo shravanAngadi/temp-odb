@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="17" android:orientation="1" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="17" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:id="false" android:paddingTop="3sp" android:paddingBottom="3sp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="@style/ListViewHeaderText" />
+		<Button android:layout_gravity="21" android:id="false" android:background="0000" android:paddingLeft="6dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-1" android:text="Reset" />
+	</LinearLayout>
+	<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+</LinearLayout>

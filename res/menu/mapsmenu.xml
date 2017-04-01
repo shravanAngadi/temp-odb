@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable-mdpi-v4/ic_action_map.png" android:id="false" android:title="Map Mode" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_view_as_list.png" android:id="false" android:title="Select" />
+	<item android:icon="res/drawable-mdpi-v4/ic_menu_archive.png" android:id="false" android:title="Open" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_remove.png" android:id="false" android:title="Close" />
+	<item android:icon="res/drawable-mdpi-v4/ic_action_share.png" android:id="false" android:title="Share" />
+</menu>

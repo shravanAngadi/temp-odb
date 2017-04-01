@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="16dp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" style="@style/ListViewHeaderText" />
+	<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+	<LinearLayout android:orientation="0" android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="16dp" android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<ImageView android:layout_gravity="16" android:id="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="7dp" android:layout_marginTop="2dp" android:src="res/drawable-ldpi-v4/downtrianglewhite.png" android:scaleType="3" />
+	</LinearLayout>
+	<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Enabled" />
+	<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Smoothing" />
+	<md582b5a07626dd05129629b576a190027d.ColorPickerRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

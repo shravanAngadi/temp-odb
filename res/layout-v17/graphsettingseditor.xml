@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Settings" style="@style/ListViewHeaderText" />
+		<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" />
+		<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16dp" android:gravity="17" android:layout_width="-2" android:layout_height="-2" android:text="Time Window (seconds)" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+			<EditText android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+		<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16dp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Sampling" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+			<Spinner android:id="false" android:layout_width="-2" android:layout_height="-2" android:prompt="Sampling" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+		<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Legend" />
+		<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="X Axis Labels" />
+		<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Y Axis Labels" />
+		<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Y Axis Position" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+			<Spinner android:id="false" android:layout_width="-2" android:layout_height="-2" android:prompt="Y Axis Position" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>

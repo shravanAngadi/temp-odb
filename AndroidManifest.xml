@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="37" android:versionName="4.2.1" android:installLocation="auto" package="OCTech.Mobile.Applications.OBDLink" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+	<permission android:name="octech.mobile.applications.obdlink.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+	<uses-permission android:name="octech.mobile.applications.obdlink.permission.MAPS_RECEIVE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-feature android:name="android.hardware.location.network" android:required="false" />
+	<uses-feature android:name="android.hardware.usb.host" android:required="false" />
+	<uses-feature android:name="android.hardware.wifi" android:required="false" />
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	<uses-feature android:name="android.hardware.location.gps" android:required="false" />
+	<uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
+	<uses-feature android:name="android.hardware.telephony" android:required="false" />
+	<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+	<uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+	<uses-feature android:glEsVersion="131072" android:required="true" />
+	<application android:theme="null" android:label="OBDLink" android:icon="res/mipmap-ldpi-v4/obdlinkicon.png" android:name="md5bb7ee07fc57ad387ac577b3c0b2d7da2.StaticApplication" android:allowBackup="true" android:supportsRtl="true">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDMmUhZOArU2-QyTCtaGlFRytfp8iisq9k" />
+		<meta-data android:name="com.google.android.gms.version" android:value="8487000" />
+		<uses-library android:name="com.google.android.maps" android:required="false" />
+		<activity android:label="Select PIDs" android:name="md5bb7ee07fc57ad387ac577b3c0b2d7da2.LoggableItemSelectionActivity" android:configChanges="orientation" />
+		<activity android:label="OBDLink" android:icon="res/mipmap-ldpi-v4/obdlinkicon.png" android:name="md5bb7ee07fc57ad387ac577b3c0b2d7da2.MainActivity" android:configChanges="orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="res/xml/device_filter.xml" />
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="obdlink" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+				<category android:name="android.intent.category.CAR_MODE" />
+			</intent-filter>
+		</activity>
+		<receiver android:name="md5bb7ee07fc57ad387ac577b3c0b2d7da2.ApiBroadcastReceiver">
+			<intent-filter>
+				<action android:name="octech.mobile.applications.obdlink.SHUTDOWN" />
+			</intent-filter>
+		</receiver>
+		<activity android:label="Monitors" android:name="md5066842e4e42fef50908545c889775619.MonitorsActivity" />
+		<activity android:label="Dashboard" android:name="md52c41405724f52e3659b1ef21f113b85c.DashboardActivity" />
+		<activity android:label="Maps" android:name="md570ec1f43274c542cb83c641e3d93b7f6.MapPane" android:configChanges="orientation" />
+		<activity android:label="Logs" android:name="md5f780b2c8d6aa401eeef08bef09e60552.LogsActivity" />
+		<activity android:name="md540747e9e7d653d2183c91d4eba95cfbd.ReportFragmentChildActivity" />
+		<activity android:label="Diagnostics" android:name="md540747e9e7d653d2183c91d4eba95cfbd.DiagnosticsActivity" />
+		<activity android:label="Style Designer" android:name="md582b5a07626dd05129629b576a190027d.SGaugeDigitalDesignerActivity" android:windowSoftInputMode="stateUnchanged" />
+		<activity android:label="Style Designer" android:name="md582b5a07626dd05129629b576a190027d.SGaugeRadialDesignerActivity" />
+		<activity android:label="Dropbox" android:name="md52e76548983cb0e422a2c7e399a247ff3.DropboxActivity" android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:host="open" />
+				<data android:scheme="db-p2v7j7otc5oc5ld" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Information" android:name="md52e76548983cb0e422a2c7e399a247ff3.InformationActivity" />
+		<activity android:label="Settings" android:name="md52e76548983cb0e422a2c7e399a247ff3.SettingsActivity" />
+		<activity android:label="WebviewActivity" android:name="md52e76548983cb0e422a2c7e399a247ff3.WebviewActivity" />
+		<activity android:label="Units" android:name="md52e76548983cb0e422a2c7e399a247ff3.UnitsConfigurationActivity" />
+		<activity android:label="User PID Editor" android:name="md52e76548983cb0e422a2c7e399a247ff3.UserDefinedPidEditorActivity" />
+		<activity android:label="User Defined PIDs" android:name="md52e76548983cb0e422a2c7e399a247ff3.UserDefinedPidsActivity" />
+		<activity android:label="Vehicle Editor" android:name="md52e76548983cb0e422a2c7e399a247ff3.VehicleEditorActivity" />
+		<activity android:label="OBDLink Registration" android:name="md5b3b193298007071046f124943de4ecba.OBDLinkRegistrationActivity" />
+		<activity android:label="OBDLink Firmware Loader" android:name="md5b3b193298007071046f124943de4ecba.OBDLinkFirmwareLoaderActivity" android:configChanges="orientation" />
+		<activity android:label="OBDLink Firmware Updates" android:name="md5b3b193298007071046f124943de4ecba.OBDLinkFirmwareUpdatesActivity" android:configChanges="orientation" />
+		<activity android:label="Firmware Versions" android:name="md5b3b193298007071046f124943de4ecba.OBDLinkFirmwareVersionsActivity" />
+		<provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:authorities="OCTech.Mobile.Applications.OBDLink.mono.MonoRuntimeProvider.__mono_init__" android:initOrder="2147483647" />
+	</application>
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+	<supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="17" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="81" android:orientation="0" android:id="false" android:background="000" android:paddingTop="2dp" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<Button android:textSize="14sp" android:textColor="ffffffff" android:gravity="17" android:layout_gravity="83" android:id="false" android:background="0000" android:paddingRight="58dp" android:paddingBottom="2dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="" android:shadowColor="ff000" android:shadowDx="{4:1065353216}" android:shadowDy="{4:1065353216}" android:shadowRadius="{4:1073741824}" android:drawableTop="res/drawable-ldpi-v4/arrowleft.png" />
+		<Button android:textSize="14sp" android:textColor="ffffffff" android:gravity="17" android:layout_gravity="85" android:id="false" android:background="0000" android:paddingLeft="58dp" android:paddingBottom="2dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="" android:shadowColor="ff000" android:shadowDx="{4:1065353216}" android:shadowDy="{4:1065353216}" android:shadowRadius="{4:1073741824}" android:drawableTop="res/drawable-ldpi-v4/arrowright.png" />
+	</LinearLayout>
+	<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" />
+</RelativeLayout>

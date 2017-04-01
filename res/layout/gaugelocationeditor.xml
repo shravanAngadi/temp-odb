@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+	<LinearLayout android:orientation="1" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Width (10 - 100)" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Height (10 - 100)" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Left (0 - 100)" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Top (0 - 100)" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+	</LinearLayout>
+</ScrollView>

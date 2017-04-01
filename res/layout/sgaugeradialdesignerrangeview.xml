@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Fill" style="@style/ListViewHeaderText" />
+	<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+	<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.ColorPickerRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.ColorPickerRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<TextView android:textSize="16dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Range Appearance" style="@style/ListViewHeaderText" />
+	<View android:background="ff33b5e5" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.SliderRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<md582b5a07626dd05129629b576a190027d.ColorPickerRow android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Add Range" />
+</LinearLayout>
